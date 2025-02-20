@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(88, 62, 41);
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    background-color: rgb(197, 160, 113);
+    width: 90%;
+    padding: 20px;
+    margin: 0px auto;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 0px 8px rgb(88, 62, 41);
+}
+
+#main {
+    display: flex;
+}
+
+#RGB {
+    background-color: rgb(121, 94, 60);
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px rgb(88, 62, 41);
+    margin-right: 15px;
+}
+
+#CMYK {
+    background-color: rgb(121, 94, 60);
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px rgb(88, 62, 41);
+}
+
+.text-rgb {
+   width: 80%;
+   text-align: center;
+   margin: 50px auto;
+}
+
+.text-cmyk {
+    width: 80%;
+    text-align: center;
+    margin: 50px auto;
+ }
+
+ #diferenca {
+    background-color: rgb(153, 93, 58);
+    width: 70%;
+    margin: 20px auto;
+    text-align: center;
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px rgb(88, 62, 41);
+ }
+
+ .text-diferenca {
+    padding: 20px;
+    width: 80%;
+    margin: 0px auto;
+ }
+
+ #arara {
+    width: 80%;
+    padding: 10px;
+ }
+
+footer {
+    background-color: rgb(88, 62, 41);
+    padding: 20px;
+    text-align: center;
+}
